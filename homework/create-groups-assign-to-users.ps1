@@ -104,7 +104,7 @@ function Remove-User-from-Group {
 function Main {
     do {
         Show-Menu
-        $choice = Read-Host "Seleccione una opción"
+        $choice = Read-Host "Seleccione una opcion"
         switch ($choice) {
             1 {
                 $groupName = Read-Host "Ingrese el nombre del grupo a crear"
